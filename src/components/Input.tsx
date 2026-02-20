@@ -17,6 +17,7 @@ export const Input = ({placeholder,keyboardType,handleChangeValue,name}:Props) =
       keyboardType={keyboardType}
       onChangeText={(value)=>handleChangeValue(name,value)}
       style={stylesGlobal.input}
+      
     />
 
   )
