@@ -18,7 +18,7 @@ contenedor: {
    backgroundColor: '#0c1727',
    justifyContent: 'center',
    alignItems: 'center',
-   borderRadius:10
+   borderRadius:5
   },
    boton: {
     backgroundColor: '#18383f',
@@ -26,10 +26,11 @@ contenedor: {
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'row',
-    paddingVertical: 10,
+    paddingVertical: 18,
     paddingHorizontal: 18,
-    borderWidth: 3,
+    borderWidth: 2,
     borderColor: '#ffffff',
+    marginTop: 20,
    },
     input: {
     borderWidth: 1,
@@ -41,6 +42,8 @@ contenedor: {
     backgroundColor: '#535050',
     color: '#e1dcd8',
     fontSize: 16,
+    alignItems: 'center',
+     justifyContent: 'center',
   },
   textMoyor: {
     color: '#a00909',
@@ -49,4 +52,16 @@ contenedor: {
     textAlign: 'center',
     fontWeight: 'bold',
   },
+  buttonText:{
+    color: '#e1dcd8',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  textResultado:{
+    color: '#1c1fcc',
+    fontSize: 18,
+    fontWeight: 'bold',
+     marginTop: 20,
+     textAlign: 'center',
+  }
 })

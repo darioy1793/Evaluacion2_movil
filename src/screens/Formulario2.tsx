@@ -36,6 +36,7 @@ const handleCalcular = ():void => {
 
   return (
     <View>
+      <Text style={stylesGlobal.textMoyor}>Numero Menor o Igual</Text>
       <Input placeholder='numero 1' keyboardType='number-pad'
       handleChangeValue={handleChangeValue} name='num1'/>
       <Input placeholder='numero 2' keyboardType='number-pad'
@@ -44,7 +45,7 @@ const handleCalcular = ():void => {
       <TouchableOpacity style={stylesGlobal.boton} onPress={handleCalcular}>
         <Text >Calcular</Text>
     </TouchableOpacity>
-     <Text >{resultado}</Text>
+     <Text style={stylesGlobal.textResultado} >{resultado}</Text>
     </View>
    
   )
